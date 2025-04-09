@@ -1,5 +1,3 @@
-# app.py
-
 from fastapi import FastAPI
 from langserve import add_routes
 from chains.simple_chain import simple_chain, SimpleInput, SimpleOutput
